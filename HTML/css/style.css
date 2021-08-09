@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+}    
+
+#container{
+    width: 900px;
+    margin: auto;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+ nav{
+     display: flex;
+     justify-content: space-between;
+     border: 3px solid blue;
+     padding: 30px;
+ }
+
+ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+img{
+    width: 200px;
+    height: 150px;
+
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+#slider{
+    border: 2px solid gold;
+    margin-top: 10px;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    border: 2px solid yellow;
+}
+
+.gambar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width:600px) {
+    #container{
+        background-color: red;
+        width: 500px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gambar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul li{
+        display: inline-block;
+        padding-top: 10px;
+    }
+
+    
+
+   
+}
+
+
+
+    /* #wrapper{
+        margin: auto;
+        width: 900px;
+        background-color: aqua;
+        
+
+       
+    }
+
+    .warna{
+        background-color: chartreuse;
+    }
+
+     .top ul li {
+         list-style: none;
+         display: inline-block;
+         margin-left: 10px;
+         margin-top: 10px;
+        
+     }
+
+     .top ul li a{
+         text-decoration: none;
+     }
+
+     .content ul li{
+         font-size: 30px;
+     } */
