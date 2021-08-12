@@ -1,0 +1,65 @@
+.makanan{
+    display: flex;
+    justify-content: space-between;
+}
+.jenis{
+    padding: 0px;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+}
+
+.cucu-1{
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.cucu-2{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    text-align: center;
+    
+}
+
+.cucu-3{
+    width: 200px;
+    height: 300px;
+    background-color:yellow;
+    text-align: center;
+}
+
+.bapak{
+    margin: auto;
+    width: 900px;
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+     
+}
+
+.kakek{
+
+  
+}
+
+.paman{
+    
+}
+
+@media screen and (max-width:600px) {
+    .bapak{
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        border: 1px solid black;
+    }
+}
